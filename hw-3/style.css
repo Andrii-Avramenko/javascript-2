@@ -1,0 +1,11 @@
+img {
+  display: block;
+  height: 700px;
+  background-color: #f0f0f0;
+  opacity: 0;
+  transition: opacity 700ms ease;
+}
+
+img.loaded {
+  opacity: 1;
+}
