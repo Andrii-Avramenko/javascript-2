@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #e2e2e2;
+  font-size: 20px;
+}
+h2 {
+  color: #333;
+}
+p {
+  line-height: 1.5;
+}
+a{
+  color: #ee00ff;
+  text-decoration: none;
+}
+a:visited {
+  color: #9000ff;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.card-image {
+  width: 480px;
+  height: 270px;
+  border: black 1px solid;
+}
